@@ -70,4 +70,3 @@ Or run `docker compose up --build`.
 - Farmer alert generation only creates local sample text; it does not send messages.
 
 VarshaSetu is not an official meteorological service and must not replace official forecasts or qualified agricultural advice.
-

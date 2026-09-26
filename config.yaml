@@ -1,0 +1,33 @@
+app_name: VarshaSetu
+default_district: Meerut
+default_horizon: 7
+data:
+  sample: data/sample/meerut_daily.csv
+  raw: data/raw
+  geo: data/geo
+  processed: data/processed/features.csv
+  model: models/monsoon_model.joblib
+thresholds:
+  significant_rain_7day_mm: 25
+  heavy_rain_day_mm: 64.5
+  dry_day_mm: 2.5
+  dry_spell_days: 4
+  onset_rainfall_mm: 2.5
+  onset_consecutive_days: 3
+risk_levels:
+  low: 30
+  moderate: 60
+  high: 80
+blocks:
+  Meerut: [28.9845, 77.7064]
+  Jaani: [29.0020, 77.5900]
+  Kharkhoda: [28.8360, 77.7410]
+  Rajpura: [28.9100, 77.8700]
+  Rohta: [29.0250, 77.5100]
+  Hastinapur: [29.1650, 78.0100]
+  Machra: [28.9700, 77.8800]
+  Mawana: [29.1030, 77.9210]
+  Daurala: [29.1140, 77.7420]
+  Sardhana: [29.1450, 77.6150]
+  Saroorpur: [29.1850, 77.5000]
+  Parikshitgarh: [28.9940, 77.9340]
